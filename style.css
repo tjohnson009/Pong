@@ -1,0 +1,21 @@
+/* let sectionLength = canvas.height / 15; // the height split into 15 equal sections
+      for (let j = 0; j <= sectionLength; j++) {
+        if (j % 2 === 0) {
+          console.log(sectionLength);
+          canvasContext.fillStyle = "white";
+          canvasContext.fillRect(
+            canvas.width / 2 - 2.5,
+            j * sectionLength,
+            5,
+            j * sectionLength + 40
+          );
+        }
+
+        //     if (j % 2 === 0) {
+        //         for (let i = 0; i <= canvas.height; i+=80) {
+        //
+        //     }
+        // } else {
+
+        // }
+      } */
