@@ -30,7 +30,7 @@ window.onload = function() {
         endYDraw = startYDraw + sectionLength; // defines the length of each drawing
         for (let j = 0; j <= (numOfSections - 1); j++) { // here we can stop the loop at numOfSections - 1
           if (j % 2 === 0) {
-            // console.log(startYDraw, endYDraw); // checks the values of the lines being drawn
+            console.log(startYDraw, endYDraw); // checks the values of the lines being drawn
     canvasContext.fillStyle = "white";
     canvasContext.fillRect((canvas.width / 2 - 2.5), startYDraw, 5, endYDraw);
     startYDraw += (2 * sectionLength); 

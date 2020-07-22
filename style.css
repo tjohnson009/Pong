@@ -5,7 +5,7 @@
           canvasContext.fillStyle = "white";
           canvasContext.fillRect(
             canvas.width / 2 - 2.5,
-            j * sectionLength,
+            j * sectionLength, teste
             5,
             j * sectionLength + 40
           );
